@@ -1,6 +1,11 @@
 name: Shell Commands
 
-on: [push]
+on: 
+   push:
+     branches:
+       - master
+       - 'feature/*'
+       - 'feature/**'
 
 jobs:
   run-shell-command:
