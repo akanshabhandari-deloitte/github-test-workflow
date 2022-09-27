@@ -1,20 +1,20 @@
-name: Shell Commands
+# name: Shell Commands
 
-on: 
-   push:
-     branches:
-       - master
-       - 'feature/*'
-       - 'feature/**'
+# on: 
+#    push:
+#      branches:
+#        - master
+#        - 'feature/*'
+#        - 'feature/**'
 
-jobs:
-  run-shell-command:
-    runs-on: ubuntu-latest
-    steps:
-      - name: echo a string
-        run: echo "Hrloo World"
-      - name: multiline script
-        run: |
-          node -v
-          npm -v
+# jobs:
+#   run-shell-command:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: echo a string
+#         run: echo "Hrloo World"
+#       - name: multiline script
+#         run: |
+#           node -v
+#           npm -v
    
